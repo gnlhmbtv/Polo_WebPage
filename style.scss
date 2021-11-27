@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.intro{
+    position: relative;
+    #slider{
+        overflow: hidden;
+        figure{
+            position: relative;
+            width: 500%;
+            margin: 0;
+            left: 0;
+            animation: 20s slider infinite;
+            img{
+                width: 20%;
+                float: left;
+            }
+        }
+        .contact{
+          .row{
+            .top-menu{
+                position: absolute;
+                margin-top: 10px;
+                margin-left: 60px;
+                ul{
+                    list-style: none;
+                }
+                li{
+                    display: inline;
+                    margin-right: 20px;
+                    a{
+                        font-size: 15px;
+                        font-weight: 600;
+                        height: 100px;
+                        color:white;
+                        text-decoration: none;
+                    }
+                }
+            }
+            .social-media{
+                position: absolute;
+                margin-left: 600px;
+                margin-top: 10px;
+                margin-right: 60px;
+                ul{
+                    margin-left: 300px;
+                    list-style: none;
+                }
+                li{
+                    display: inline;
+                    a{
+                        font-size: 20px;
+                        margin-left: 15px;
+                        color:white;
+                    }
+                }
+            }
+          } 
+        }
+        .nav{
+            .logo{
+                
+            }
+        }
+    }
+    @keyframes slider {
+        0%{
+            left: 0;
+        }
+        20%{
+            left: 0;
+        }
+        25%{
+            left: -100%;
+        }
+        45%{
+            left: -100%;
+        }
+        50%{
+            left: -200%;
+        }
+        70%{
+            left: -200%;
+        }
+        75%{
+            left: -300%;
+        }
+        95%{
+            left: -300%;
+        }
+        100%{
+            left: -400%;
+        }
+    }
+}     
